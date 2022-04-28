@@ -19,7 +19,7 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2" colspan="2"><strong>Web form with Database</strong></td>
+                    <td class="auto-style2" colspan="2"><strong style="font-size: x-large">Web form with Database</strong></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -33,6 +33,10 @@
                     <td>Id </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Search" />
+&nbsp;&nbsp;
+                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -55,6 +59,10 @@
                     <td>&nbsp;</td>
                     <td>
                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Insert" />
+&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Update" />
+&nbsp;&nbsp;
+                        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Delete" />
                     </td>
                 </tr>
                 <tr>
